@@ -30,6 +30,18 @@ body {
     border-radius: 0.5rem;
     overflow: hidden;
 }
+/*  Credit to W3 Schools for Overlay 
+    Source: https://www.w3schools.com/cssref/tryit.php?filename=trycss_mix-blend-mode
+*/
+.overlay {
+    background-color: var(--clr-primary-400);
+}
+
+.overlay .card__image {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+}
+
 
 .card__content {
     padding: 2rem;
