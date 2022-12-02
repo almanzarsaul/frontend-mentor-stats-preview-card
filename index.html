@@ -11,6 +11,19 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <!-- CSS Reset by Josh W. Comeau -->
+    <link rel="stylesheet" href="reset.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
@@ -22,27 +35,30 @@
           alt="A group of women sitting at a table on laptops working."
           class="card__image"
         />
-        <div class="card__header">
-          <h1 class="header__title">
-            Get insights that help your business grow.
-          </h1>
-          <p class="header__description">
-            Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency.
-          </p>
-        </div>
-        <div class="card__stats">
-          <div class="stats__companies">
-            <h3 class="stats__number">10k+</h3>
-            <p class="stats__label">Companies</p>
+        <div class="card__content">
+          <div class="card__header">
+            <h1 class="header__title">
+              Get <span class="purple-text">insights</span> that help your
+              business grow.
+            </h1>
+            <p class="header__description">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
           </div>
-          <div class="stats__templates">
-            <h3 class="stats__number">314</h3>
-            <p class="stats__label">Templates</p>
-          </div>
-          <div class="stats__queries">
-            <h3 class="stats__number">12M+</h3>
-            <p class="stats__label">Queries</p>
+          <div class="card__stats">
+            <div class="stats__companies">
+              <h3 class="stats__number">10k+</h3>
+              <p class="stats__label">Companies</p>
+            </div>
+            <div class="stats__templates">
+              <h3 class="stats__number">314</h3>
+              <p class="stats__label">Templates</p>
+            </div>
+            <div class="stats__queries">
+              <h3 class="stats__number">12M+</h3>
+              <p class="stats__label">Queries</p>
+            </div>
           </div>
         </div>
       </article>
